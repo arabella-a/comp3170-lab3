@@ -1,0 +1,57 @@
+.App {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 60rem;
+  align-items: center;
+  justify-items: center;
+  border: 1px solid;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 2rem;
+  box-shadow: 2px 4px #D3D3D3;
+}
+
+img {
+  height: 6em;
+  margin: 1rem;
+
+}
+
+.img-title {
+  display: flex;
+}
+
+.title-author {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-author > p {
+  font-weight: bold;
+  font-size: 1.05rem;
+  line-height: 0.2rem;
+}
+
+h1 {
+  font-size: 1.25rem;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+button {
+  float: right;
+  background-color: #D22B2B;
+  border-radius: 0.25rem;
+  color: white;
+  cursor: pointer;
+  margin: 1rem;
+}
